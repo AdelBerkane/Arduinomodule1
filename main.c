@@ -1,11 +1,9 @@
+#ifndef GENERATIONCODE_H
+#define GENERATIONCODE_H
+
 #include <stdio.h>
 #include <stdlib.h>
-#include "menu.h"
-#include "generationCode.h"
 
-int main()
-{
-    generation();
 
-    return 0;
-}
+void generation();
+#endif // GENERATIONCODE_H
