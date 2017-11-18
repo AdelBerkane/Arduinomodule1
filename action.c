@@ -180,7 +180,7 @@ min = T[0].pouls;
 	printf ("le minimum est : %d \n",min);
 }
 
-void nombre_de_donnee (int n2)
+void nombre_de_donnees (int n2)
 {printf ("\n le nombre de lignes de données actuellement en mémoire est de %d",n2);
 
 }
