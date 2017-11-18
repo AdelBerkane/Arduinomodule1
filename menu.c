@@ -5,7 +5,7 @@
 #include "donnee.h"
 
 int affichmenu ()
-{ int a;
+{
 printf ("Pour l'ordre du fichier csv tapez : 1 \n\n");
 
 printf ("Pour l'ordre croissant selon le temps tapez : 2 \n\n");
@@ -20,13 +20,14 @@ printf ("Pour rechercher et afficher les donnees dans un temps particulier tapez
 
 printf ("Pour afficher la moyenne de pouls dans une plage de temps tapez : 7 \n\n");
 
-printf ("Pour afficher le nombre de ligne actuellement en memoire tapez : 8 \n\n");
+printf ("Pour afficher le nombre de lignes actuellement en mémoire tapez : 8 \n\n");
 
-printf ("Pour afficher le maximaum de pouls tapez : 9 \n\n");
+printf ("Pour afficher le poul maximum enregistré tapez : 9 \n\n");
 
-printf ("Pour afficher le minimaum de pouls tapez : 10 \n\n ");
+printf ("Pour afficher le poul minimum enregistré tapez : 10 \n\n ");
 
 printf ("Tapez 0 pour quitter \n\n");
+return 0;
 }
 void affichparticulier (battement T[], int n2 )
 
@@ -73,7 +74,7 @@ temps_donnee (T,n2);
 
 else if (a==8)
 
-nombre_de_donnee(n2);
+nombre_de_donnees(n2);
 
 else if (a==9)
 

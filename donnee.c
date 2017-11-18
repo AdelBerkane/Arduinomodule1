@@ -8,7 +8,7 @@
      char *token;
      char Fsnl[10000];
      FILE * Fpointer;
-     Fpointer = fopen("bacon.csv","r");
+     Fpointer = fopen("batman.csv","r");
      while (fgets(Fsnl ,10000,Fpointer)!= NULL)
         {
 

@@ -4,7 +4,7 @@ void croiss_temps(battement T[] , int n2);
 
 void decroiss_temps (battement T[],int n2);
 
-void croi_pouls (battement T[] , int n2);
+void croiss_pouls (battement T[] , int n2);
 
 void decroiss_pouls (battement T[] , int n2);
 
