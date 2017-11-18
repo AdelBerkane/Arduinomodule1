@@ -43,7 +43,7 @@ void temps_donnee (battement T[],int n2)
 
 float moy ;
 
-printf ("enter une plage de temps \n ");
+printf ("Quel interval de temps? \n ");
 
 scanf ("%d%d",&a,&b);
 
@@ -57,7 +57,7 @@ h=h+1 ;
 }
 }
 moy=s/h ;
-printf ("la moyenne de pouls entre %d et %d est : %f ",a,b,moy);
+printf ("le poul moyen entre %d et %d est : %f ",a,b,moy);
 }
 
 void temps_particulier (battement T[],int n2)
@@ -166,7 +166,7 @@ max = T[0].pouls ;
 	{if (max<T[j].pouls)
 	max=T[j].pouls ;
 	}
-	printf ("Le maximum est de : %d \n",max);
+	printf ("Le poul maximum enregistré est de : %d \n",max);
 }
 
 void pouls_min (battement T[], int n2)
@@ -177,11 +177,11 @@ min = T[0].pouls;
 	{if (min>T[j].pouls)
 	min=T[j].pouls ;
 	}
-	printf ("le minimaum est : %d \n",min);
+	printf ("le minimum est : %d \n",min);
 }
 
 void nombre_de_donnee (int n2)
-{printf ("\n le nombre de lignes de données actuellement en memoire est %d",n2);
+{printf ("\n le nombre de lignes de données actuellement en mémoire est de %d",n2);
 
 }
 
