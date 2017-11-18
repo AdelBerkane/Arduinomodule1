@@ -1,7 +1,5 @@
-#ifndef MENU_H
-#define MENU_H
-#include "generationCode.h"
+#include "donnee.h"
 
-void allumage();
+int affichmenu ();
 
-#endif
+void affichparticulier (battement T[], int n2 );
